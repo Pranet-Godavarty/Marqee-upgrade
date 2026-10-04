@@ -103,4 +103,5 @@ Total cost: ~$67.54
 
 Designed by Pranet Godavarty.
 
-I used Easyeda for the schematics and PCB design
+I used Easyeda for the schematics and PCB design.
+Used Claude to make an interactive for how it works for the README.
