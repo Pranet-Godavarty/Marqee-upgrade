@@ -80,7 +80,6 @@ Each row terminal (J4–J11) is pin 1 = 5 V, pin 2 = GND, pin 3 = DATA.
 README.md     this file
 bom.csv       every part with links, prices and the total cost
 pcb/          gerbers.zip, schematic, and BOM
-cad/          STEP files of the full assembly and the board
 ```
 
 The full CAD assembly is in Onshape: TODO add your Onshape link.
