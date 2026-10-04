@@ -1,6 +1,8 @@
 # FRC 75 marquee controller
 
 <img width="842" height="515" alt="Screenshot-202026-10-03-20173924" src="https://github.com/user-attachments/assets/f07a6194-ac7d-49e9-b9a6-318a9069abe8" />
+<img width="1587" height="1029" alt="image" src="https://github.com/user-attachments/assets/fe0d0e04-2070-421f-a938-ec12daa37826" />
+
 
 A custom-made controller board for the scrolling LED marquee on top of FRC Team 75's pit. This is one 148 × 90 mm PCB that contains a Raspberry Pi Pico 2 to control all 8 rows of WS2812B LEDs (approx. 1,200 pixels), with its own fused 5 V feed for each row.
 
