@@ -97,7 +97,7 @@ The firmware is in [`firmware/`](firmware). It runs on the Pico 2 (Arduino, usin
 README.md                  this file
 bom.csv                    everything to buy, with links, prices and the total
 pcb/
-  PCB1.epro                EasyEDA Pro project (schematic + PCB)
+  PCB.epro2                EasyEDA Pro project (schematic + PCB)
   Gerber_PCB1_2026-10-03.zip
   bom.csv                  component list for ordering (LCSC numbers)
   cpl.csv                  pick-and-place file for JLC assembly
