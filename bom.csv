@@ -1,0 +1,20 @@
+Item,Qty,Description,Part number,Supplier,Link,Unit price (USD),Line total (USD),Notes
+PCB fabrication,5,"148 x 90 mm, 2 layers, 1.6 mm, 1 oz copper (pcb/Gerber_PCB1_2026-10-03.zip)",-,JLCPCB,https://cart.jlcpcb.com/quote,,10.00,estimate - replace with JLC cart price
+PCB assembly (PCBA) fees,2,"Top-side SMD assembly of 2 boards: setup, stencil, 5 extended-part fees",-,JLCPCB,https://cart.jlcpcb.com/quote,,25.00,estimate - replace with JLC cart price
+SMD components for PCBA,2,"Parts JLC places on 2 boards (see pcb/bom.csv, Assembly = JLC)",see pcb/bom.csv,JLCPCB,https://cart.jlcpcb.com/quote,13.82,27.64,JLC part prices
+Raspberry Pi Pico 2,1,"RP2350 board, no headers, hand-soldered (U1)",C41407547,LCSC,https://www.lcsc.com/product-detail/C41407547.html,9.3229,9.32,
+ATO fuse holder,8,Keystone 3557-2 (F1-F8),C352820,LCSC,https://www.lcsc.com/product-detail/C352820.html,1.4651,11.72,
+Row screw terminal,8,KF301-5.0-3P (J4-J11),C474882,LCSC,https://www.lcsc.com/product-detail/C474882.html,0.1394,1.12,
+3-pin header,50,PZ254V-11-03P for J12 (LCSC sells packs of 50),C2937625,LCSC,https://www.lcsc.com/product-detail/C2937625.html,0.0199,1.00,
+4-pin header,20,PZ254V-11-04P for J13 (LCSC sells packs of 20),C2691448,LCSC,https://www.lcsc.com/product-detail/C2691448.html,0.0276,0.55,
+ATO blade fuse 5 A,10,"Littelfuse 0287005.PXCN, standard ATO size (8 + 2 spares)",C142682,LCSC,https://www.lcsc.com/product-detail/C142682.html,0.1191,1.19,
+CR2032 coin cell,1,Backup battery for the DS3231 clock (BT1),CR2032,Amazon,https://www.amazon.com/s?k=CR2032+battery,,2.00,estimate
+M3 standoffs + screws,1,4 standoffs + 8 screws to mount the board,M3 kit,Amazon,https://www.amazon.com/s?k=M3+brass+standoff+kit,,5.00,estimate
+"12 AWG wire, red + black",1,Two power pairs from the supply to PWR IN A / B,12 AWG silicone wire,Amazon,https://www.amazon.com/s?k=12+AWG+silicone+wire+red+black,,10.00,estimate
+18 AWG wire,1,Short pigtails from the row terminals to the strip connectors,18 AWG wire,Amazon,https://www.amazon.com/s?k=18+AWG+silicone+wire,,5.00,estimate
+Shipping,1,JLCPCB + LCSC,-,JLCPCB / LCSC,https://cart.jlcpcb.com/quote,,30.00,estimate - replace with checkout amount
+Taxes / tariffs,1,Charged at JLCPCB and LCSC checkout,-,JLCPCB / LCSC,https://cart.jlcpcb.com/quote,,20.00,estimate - replace with checkout amount
+"WS2812B LED strip, 5 m, 60 LED/m",4,Marquee rows (8 x ~2.5 m),WS2812B 16.4ft 300LED,BTF-LIGHTING,https://www.amazon.com/BTF-LIGHTING-Flexible-Individually-Addressable-Non-waterproof/dp/B01CDTEG1O,0,0.00,already owned
+5 V 60 A power supply,1,Existing marquee supply (equivalent: Mean Well LRS-350-5),LRS-350-5,Bravo Electro,https://www.bravoelectro.com/lrs-350-5.html,0,0.00,already owned
+"JST SM 3-pin connectors, 20 pairs",1,Strip-side plugs for the row pigtails,3PIN-SM,BTF-LIGHTING,https://www.amazon.com/BTF-LIGHTING-Connectors-WS2812B-WS2811-WS2812/dp/B01DC0KIT2,0,0.00,already owned
+TOTAL,,,,,,,159.54,

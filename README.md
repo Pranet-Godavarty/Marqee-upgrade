@@ -89,7 +89,7 @@ The firmware is in [`firmware/`](firmware). It runs on the Pico 2 (Arduino, usin
 - keeps each row under 3 A and each half under 4 A, so the 1 oz traces don't overheat
 - blinks the status LED on GP22 so you can see it's running
 
-[`firmware/README.md`](firmware/README.md) has the upload steps and settings. The firmware was written with AI It compiles, but it hasn't been tested on the marquee yet.
+[`firmware/README.md`](firmware/README.md) has the upload steps and settings. The firmware was written with AI. It compiles, but it hasn't been tested on the marquee yet.
 
 ## What's in this repo
 
@@ -103,6 +103,8 @@ pcb/
   cpl.csv                  pick-and-place file for JLC assembly
   3D_PCB1_2026-10-03.step  3D model of the assembled board
   DXF_Schematic1_2026-10-1.zip
+firmware/
+  README.md                how to upload and use it
   marquee/marquee.ino      Pico 2 sketch
 ```
 
