@@ -74,7 +74,7 @@ Each row terminal (J4–J11) is pin 1 = 5 V, pin 2 = GND, pin 3 = DATA.
 ## Ordering and building the board
 
 - PCB: upload `pcb/Gerber_PCB1_2026-10-03.zip` to JLCPCB as a 2-layer, 1.6 mm board with 1 oz copper. The firmware's current limits are set for 1 oz.
-- Assembly: turn on PCB Assembly and upload `pcb/bom.csv` and `pcb/cpl.csv`. Every part has an LCSC number. The `Assembly` column says which parts JLC places; leave the "Hand solder" ones unselected.
+- Assembly: turn on PCB Assembly and upload `pcb/bom.csv` and the pick-and-place file exported from `pcb/PCB.epro2`. Every part has an LCSC number. The `Assembly` column says which parts JLC places; leave the "Hand solder" ones unselected.
 - Pico 2: use a plain Pico 2 without headers. It solders flat to the board by its castellated edges, and its USB port sits in the notch on the right edge.
 - By hand: solder the fuse holders, screw terminals, headers and power wires yourself.
 - Fuses: 8 standard-size ATO/ATC 5 A blade fuses. The 3557-2 holders don't take mini fuses.
@@ -100,7 +100,6 @@ pcb/
   PCB.epro2                EasyEDA Pro project (schematic + PCB)
   Gerber_PCB1_2026-10-03.zip
   bom.csv                  component list for ordering (LCSC numbers)
-  cpl.csv                  pick-and-place file for JLC assembly
   3D_PCB1_2026-10-03.step  3D model of the assembled board
   DXF_Schematic1_2026-10-1.zip
 firmware/
