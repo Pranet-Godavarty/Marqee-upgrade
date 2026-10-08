@@ -103,8 +103,6 @@ pcb/
   cpl.csv                  pick-and-place file for JLC assembly
   3D_PCB1_2026-10-03.step  3D model of the assembled board
   DXF_Schematic1_2026-10-1.zip
-firmware/
-  README.md                how to upload and use it
   marquee/marquee.ino      Pico 2 sketch
 ```
 
@@ -147,4 +145,4 @@ The lines marked estimate get replaced with the real amounts from the JLCPCB and
 
 Designed by Pranet Godavarty. Schematic and PCB made in EasyEDA Pro.
 
-AI use: the firmware in `firmware/` was written with Claude, and those hours aren't counted. I also used Claude to review the design, make the "how it works" diagram, and help put together this README and the BOM files.
+AI use: the firmware was written with AI, and those hours aren't counted.
